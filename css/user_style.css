@@ -1,0 +1,17 @@
+.container-fluid .row .index-card{
+    background-color: #C6C6C6;
+}
+.container-fluid .row .col-md-3 .button-mulai{
+    color: white;
+    text-decoration: none;
+    background-color: #FF3939;
+    display: inline-block;
+    font-size: 1.125rem;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container-fluid .row .col-md-9 .row .subject-card{
+    min-height: 500px;
+}
