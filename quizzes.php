@@ -29,7 +29,15 @@ if (isset($_GET['subject_id']) && is_numeric($_GET['subject_id'])) {
 <body>
     <div class="title"><?= htmlspecialchars($subject_name) ?></div>
     <div class="line"></div>
-    <a href="users_dashboard.php" class="button-mulai w-25 my-1">Kembali</a>
+    <?= 
+        $keterangan = "";
+        if(($_SESSION["username"]) == "admin"){
+            $keterangan = "admin_dashboard.php";
+        } else{
+            $keterangan = "users_dashboard.php";
+        }
+    ?>
+    <a href=<?php echo $keterangan ?> class="button-mulai w-25 my-1">Kembali</a>
     <div class="container">
         <ul class="exercise-list">
             <?php

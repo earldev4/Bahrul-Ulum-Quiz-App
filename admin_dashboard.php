@@ -26,7 +26,7 @@
                 <h4 class="mt-3"><?= $_SESSION["username"]?></h4>
                 <a href="view_account.php" class="button-mulai mt-3">Lihat Data Murid</a>
                 <a href="add_users.php" class="button-mulai mt-3">Buat Data Murid</a>
-                <a href="add_question.php" class="button-mulai mt-3">Buat Soal</a>
+                <a href="add_quiz.php" class="button-mulai mt-3">Buat Soal</a>
                 <form action="users_dashboard.php" method="POST">
                     <button type="submit" name="logout" class="button-mulai bg-danger mt-3">Logout</button>
                 </form>
